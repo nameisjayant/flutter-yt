@@ -26,7 +26,7 @@ class BottomNavigationWidget extends State<BottomNavigationScreen>{
         appBar: AppBar(
           title:  const Text("BottomNavigation Screen"),
         ),
-        bottomNavigationBar: BottomNavigationBar(items: [
+        bottomNavigationBar: BottomNavigationBar(items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home),label: "home"),
           BottomNavigationBarItem(icon: Icon(Icons.video_settings),label: "Videos"),
           BottomNavigationBarItem(icon: Icon(Icons.image),label: "Images")
